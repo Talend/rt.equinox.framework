@@ -17,10 +17,25 @@
     <version>4.4.0-SNAPSHOT</version>
     <relativePath>../../</relativePath>
   </parent>
-  <groupId>org.eclipse.osgi</groupId>
+  <groupId>org.talend</groupId>
   <artifactId>org.eclipse.osgi</artifactId>
   <version>3.10.2-SNAPSHOT</version>
   <packaging>eclipse-plugin</packaging>
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>talend.thirdparty</id>
+      <name>Talend ESB Third Party</name>
+      <url>http://sop-ip14.servicebackbone.org:8081/nexus/content/repositories/thirdparty-snapshots</url>
+    </snapshotRepository>
+
+    <repository>
+      <id>talend.thirdparty</id>
+      <name>Talend ESB Third Party</name>
+      <url>http://sop-ip14.servicebackbone.org:8081/nexus/content/repositories/thirdparty-snapshots</url>
+    </repository>
+  </distributionManagement>
+  
 
   <build>
     <plugins>
