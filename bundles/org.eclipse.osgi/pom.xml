@@ -19,7 +19,7 @@
   </parent>
   <groupId>org.talend</groupId>
   <artifactId>org.eclipse.osgi</artifactId>
-  <version>3.10.2-SNAPSHOT</version>
+  <version>3.10.2</version>
   <packaging>eclipse-plugin</packaging>
   
   <distributionManagement>
@@ -32,7 +32,7 @@
     <repository>
       <id>talend.thirdparty</id>
       <name>Talend ESB Third Party</name>
-      <url>http://sop-ip14.servicebackbone.org:8081/nexus/content/repositories/thirdparty-snapshots</url>
+      <url>http://sop-ip14.servicebackbone.org:8081/nexus/content/repositories/thirdparty-dev</url>
     </repository>
   </distributionManagement>
   
